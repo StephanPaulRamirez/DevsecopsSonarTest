@@ -1,5 +1,6 @@
 name: CI + SonarQube
 
+# This workflow runs on pushes to the main branch and on pull request events (opened, synchronize, reopened).
 on:
   push:
     branches: [ main ]
